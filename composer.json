@@ -1,0 +1,16 @@
+{
+    "name": "kubot/exam",
+    "description": "Egzaminas",
+    "autoload": {
+        "psr-4": {
+            "Kubot\\Exam\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kubot",
+            "email": "r.petrauskas@protonmail.com"
+        }
+    ],
+    "require": {}
+}
