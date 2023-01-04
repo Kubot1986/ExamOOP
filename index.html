@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Duomenu suvedimas</title>
+
+</head>
+<body>
+<form action="atvaizdavimo.php" method="post">
+    Sunaudota kWh: <input type="number" name="sunaudota"><br>
+    Kaina 1 kWh eur: <input type="number" step="0.01" name="kaina"><br>
+    Dieninis tarifas: <input type="checkbox" name="dieninis" id="dieninis"><br>
+    Pasirinkite mokestini menesi: <input type="date" name="data" id="data"><br>
+
+    <button type="submit">Skaiciuoti kaina</button>
+</form>
+
+</body>
+</html>
