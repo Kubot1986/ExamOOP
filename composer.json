@@ -12,5 +12,7 @@
             "email": "r.petrauskas@protonmail.com"
         }
     ],
-    "require": {}
+    "require": {
+      "ext-json": "*"
+    }
 }
